@@ -10,7 +10,7 @@ public class Answer {
     //    String title;
     int sum;
     public static final File txtFile = new File("categories.tsv");
-//    Integer allSum;
+
 
     public static Map<String, String> Categ(File txtFile) throws IOException {
         Map<String, String> categories = new HashMap<>();
